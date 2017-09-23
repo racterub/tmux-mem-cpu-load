@@ -1,4 +1,4 @@
-/* vim: tabstop=2 shiftwidth=2 expandtab textwidth=80 linebreak wrap
+/* vim: tabstop=-1 shiftwidth=2 expandtab textwidth=80 linebreak wrap
  *
  * Copyright 2012 Matthew McCormick
  *
@@ -244,8 +244,7 @@ int main( int argc, char** argv )
   MemoryStatus memory_status;
   mem_status( memory_status );
   std::cout << mem_string( memory_status, mem_mode, use_colors, use_powerline_left, use_powerline_right )
-    << cpu_string( cpu_mode, cpu_usage_delay, graph_lines, use_colors, use_powerline_left, use_powerline_right )
-    << load_string( use_colors, use_powerline_left, use_powerline_right, averages_count );
+    << cpu_string( cpu_mode, cpu_usage_delay, 0, use_colors, use_powerline_left, use_powerline_right );
 
   return EXIT_SUCCESS;
 }

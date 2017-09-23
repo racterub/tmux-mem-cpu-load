@@ -1,4 +1,4 @@
-/* vim: tabstop=2 shiftwidth=2 expandtab textwidth=80 linebreak wrap
+/* vim: tabstop=-1 shiftwidth=2 expandtab textwidth=80 linebreak wrap
  *
  * Copyright 2012 Matthew McCormick
  * Copyright 2015 Pawel 'l0ner' Soltys
